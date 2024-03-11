@@ -3,3 +3,14 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+
+/* choice, user-choice, comp-choice */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #FF8E8F;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from "react"
+import './Main.css';
 
 const Main = () => {
     const [ userChoice, setUserChoice ] = useState("rock")
@@ -63,10 +64,10 @@ const Main = () => {
 
             <div  className='choice'>
                 <div className='user-choice'>
-                    <img className='user-hand' src={`images/${userChoice}.png`} width="200px" height="100px" />
+                    <img className='user-hand' src={`images/${userChoice}.png`}  />
                 </div>
                 <div className='comp-choice'>
-                    <img className='user-hand' src={`images/${compChoice}.png`} width="200px" height="100px" />
+                    <img className='user-hand' src={`images/${compChoice}.png`}  />
                 </div>
             </div>
 

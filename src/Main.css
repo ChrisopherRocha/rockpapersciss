@@ -1,0 +1,64 @@
+.Main {
+    margin: 0 auto;
+}
+
+.score {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    
+}
+
+.score h1 {
+    margin: 0 30px;
+    font-weight: 800;
+}
+
+
+
+
+.choice {
+    display: flex;
+    margin: 0 auto;
+}
+
+.user-choice {
+    display: flex;
+    margin: 0 auto;
+}
+
+.comp-choice {
+    display: flex;
+    margin: 0 auto;
+}
+
+.choice img {
+    width: 300px;
+    
+}
+
+.button-div {
+    display: flex;
+    margin: 60px auto;
+    justify-content: center;
+}
+
+.button {
+    padding: 20px 50px;
+    margin: 0 20px;
+    background-color: #F7418F;
+    border: none;
+    color: white;
+    font-size: 1.8em;
+    text-transform: capitalize !important;
+}
+
+.turn-result {
+    margin: 30px auto;
+
+}
+
+.final-result {
+    margin: 30px auto;
+
+}
